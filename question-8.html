@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>QUESTION-8</title>
+	<style>
+		.flex-container-1, .flex-container-2 {
+			list-style: none;
+			margin: 0 0 10px;
+			padding: 0;
+		}
+		.flex-container-1 {
+			display: flex;
+			border-radius: 3px;
+			overflow: hidden;
+		}
+		.flex-container-1 li,.flex-container-2 li {
+			padding: 10px;
+			background-color: #03a9f4;
+			color: #fefefe;
+		}
+
+		.flex-container-2 {
+			display: inline-flex;
+			border-radius: 3px;
+			overflow: hidden;
+			flex-direction: column;
+		}
+	</style>
+</head>
+<body>
+	<ul class="flex-container-1">
+		<li>flex项目1</li>
+		<li>flex项目2</li>
+		<li>flex项目3</li>
+	</ul>
+	<span>这是一个行内元素</span>
+	<ul class="flex-container-2">
+		<li>flex项目1</li>
+		<li>flex项目2</li>
+		<li>flex项目3</li>
+	</ul>
+</body>
+</html>
